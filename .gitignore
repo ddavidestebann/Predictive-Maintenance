@@ -1,0 +1,20 @@
+# Local virtual environment
+.venv/
+venv/
+
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Original data: not committed (see course guide, section 11).
+# Obtained from Kaggle (arnabbiswas1/microsoft-azure-predictive-maintenance).
+Datasets/
+data/
+
+# Generated models and results
+models/checkpoints/
+results/
+
+# Secrets and local configuration
+.env
